@@ -3,13 +3,17 @@
   "version": "2.0.0",
   "description": "CineSubz.lk Scraper API - Search, Movie, TV Show & Download",
   "main": "index.js",
+
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x",
+    "npm": ">=9.0.0"
   },
+
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
@@ -18,10 +22,20 @@
     "helmet": "^7.1.0",
     "express-rate-limit": "^7.1.5"
   },
+
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
-  "keywords": ["cinesubz", "movies", "api", "scraper", "sinhala"],
+
+  "keywords": [
+    "cinesubz",
+    "movies",
+    "api",
+    "scraper",
+    "sinhala",
+    "railway-deploy"
+  ],
+
   "author": "Your Name",
   "license": "MIT"
 }
